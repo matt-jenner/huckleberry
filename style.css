@@ -7,6 +7,10 @@ html,
 body {
   margin: 0;
   padding: 0;
+}
+
+main {
+  padding-top: 48px;
   background-color: hsl(0deg, 0%, 60%);
 }
 
@@ -24,9 +28,7 @@ h1 {
 
 header {
   width: 100%;
-  background-color: white;
   border-bottom: 8px solid hsl(0deg, 0%, 30%);
-  margin-bottom: 48px;
   padding-top: 1px;
 }
 
@@ -57,9 +59,10 @@ p {
   margin-top: 0px;
   margin-left: -36px;
   margin-bottom: 24px;
-  padding: 24px 48px;
+  padding: 24px 36px;
   display: block;
-  max-width: max-content;
+  max-width: fit-content;
+  max-width: -moz-fit-content;
 }
 
 .card {
